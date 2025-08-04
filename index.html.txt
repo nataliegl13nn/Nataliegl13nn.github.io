@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Natalie Glenn | Academic Web Project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Natalie Glenn</h1>
+            <p class="subtitle">Web Development Student & Cultural Storyteller</p>
+            <p>I transformed my academic research on Roxanne Shanté's impact on hip-hop into a modern, mobile-friendly website.</p>
+        </section>
+
+        <section class="featured-project">
+            <h2>Featured Project: Roxanne’s Revenge and the Rise of Female Battle Rap</h2>
+            <p>My project explores how Roxanne Shanté’s 1984 track “Roxanne’s Revenge” wasn’t just a diss record — it reshaped hip-hop by putting a teenage girl at the center of the battle rap scene. This site reimagines academic research into a readable, responsive experience for modern web users.</p>
+            <a href="research.html" class="project-link">View Project</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Natalie Glenn</p>
+    </footer>
+
+</body>
+</html>
