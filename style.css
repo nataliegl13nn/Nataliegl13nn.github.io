@@ -226,3 +226,20 @@ button:hover, .btn:hover, .project-button:hover {
   margin-bottom: 20px;
   border-radius: 8px;
 }
+
+.gallery-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.caption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Optional hover zoom effect */
+.image-grid img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
