@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Me</title>
   <link rel="stylesheet" href="style.css" />
-</head>
-<body>
 
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body id="top">
   <header>
     <h1>About Me</h1>
   </header>
@@ -19,30 +22,30 @@
   </nav>
 
   <main>
-    <section>
+    <section data-aos="fade-up" data-aos-delay="100">
       <h2>My Background</h2>
-      <img src="IMG_1787.jpeg" alt="Natalie Glenn" class="about-photo">
-      <p>I'm a graduate student currently studying web authoring and design. I have a strong interest in storytelling, hip-hop culture, and how digital tools can make academic content more accessible to everyday audiences.</p>
+      <img src="IMG_1787.jpeg" alt="Natalie Glenn" class="about-photo" data-aos="zoom-in" />
+      <p>I'm a graduate student currently studying web authoring and design.</p>
     </section>
 
-    <section>
+    <section data-aos="fade-up" data-aos-delay="200">
       <h2>Why I Chose This Topic</h2>
-      <p>I chose to focus on “Roxanne’s Revenge” because it’s a moment in hip-hop history that changed the game. Roxanne Shanté’s voice, delivery, and confidence reshaped what it meant to battle in rap — especially as a young woman in a male-dominated space. Her story deserved a place online where more people could engage with it.</p>
+      <p>I chose to focus on “Roxanne’s Revenge” because it’s a moment in hip-hop history that showcases rhetorical power.</p>
     </section>
 
-    <section>
+    <section data-aos="fade-up" data-aos-delay="300">
       <h2>What I Learned in This Course</h2>
-      <p>This course helped me understand the power of clean, responsive design. I learned how to structure web pages using HTML, style them with CSS, and make my content accessible for mobile users. More importantly, I learned how to translate complex ideas into a digital format that’s easy to read and interact with.</p>
+      <p>This course helped me understand the power of clean, responsive design and the importance of accessibility in web development.</p>
     </section>
 
-    <section>
+    <section data-aos="fade-up" data-aos-delay="400">
       <h2>Transforming Academic Writing</h2>
-      <p>Turning a research paper into a website wasn’t just about copying and pasting. I had to break up long paragraphs, simplify my language, and think about flow and visual hierarchy. This process taught me how to communicate better — not just as a writer, but as a digital creator.</p>
+      <p>Turning a research paper into a website wasn’t just about copying text — it was about adapting tone, structure, and visuals to engage a digital audience.</p>
     </section>
 
-    <section>
+    <section data-aos="fade-up" data-aos-delay="500">
       <h2>Contact</h2>
-      <p>If you'd like to reach me, you can email me at: <strong>natalie.glenn@tcu.edu</strong></p>
+      <p>If you’d like to reach me, you can email me at: <strong>natalie.glenn@tcu.edu</strong></p>
     </section>
   </main>
 
@@ -50,5 +53,13 @@
     <p>© 2025 Natalie Glenn</p>
   </footer>
 
+  <!-- Back to Top Link -->
+  <a href="#top" class="back-to-top" data-aos="fade-up">Back to Top ↑</a>
+
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
