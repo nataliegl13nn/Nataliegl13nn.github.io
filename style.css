@@ -112,11 +112,33 @@ section {
 }
 
 /* Images */
-.project-images {
+.roxanne-gallery {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.roxanne-gallery h2 {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #4a4a4a;
+}
+
+.image-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 15px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-grid img {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
 }
 
 .project-images img {
