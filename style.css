@@ -252,3 +252,15 @@ blockquote {
   margin: 2em 0;
   color: #333;
 }
+
+.back-to-top {
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+}
+.back-to-top:hover {
+  color: #000;
+}
