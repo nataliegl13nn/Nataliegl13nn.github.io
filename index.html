@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Natalie Glenn | Academic Web Project</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roxanne’s Revenge: Rhetoric & Impact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
-<body class="fade-in">
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
+<body id="top">
+  <header>
+    <h1>Welcome to Roxanne’s Revenge: Rhetoric & Impact</h1>
+  </header>
 
-    <main>
-      <div class="banner">
-        <img src="roxanne-banner.jpeg" alt="Roxanne's Revenge logo banner">
-      </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="about.html">About</a>
+  </nav>
 
-        <section class="hero">
-            <h1>Natalie Glenn</h1>
-            <p class="subtitle">Web Development Student & Cultural Storyteller</p>
-            <p>I transformed my academic research on Roxanne Shanté's impact on hip-hop into a modern, mobile-friendly website.</p>
-        <section class="slide-up">
+  <main>
+    <section data-aos="fade-up">
+      <h2>Explore the Power of Hip-Hop History</h2>
+      <p>This site highlights the rhetorical brilliance of Roxanne Shanté's legendary diss track and its impact on hip-hop culture.</p>
+    </section>
 
-        <section class="featured-project">
-            <h2>Featured Project: Roxanne’s Revenge and the Rise of Female Battle Rap</h2>
-            <p>My project explores how Roxanne Shanté’s 1984 track “Roxanne’s Revenge” wasn’t just a diss record — it reshaped hip-hop by putting a teenage girl at the center of the battle rap scene. This site reimagines academic research into a readable, responsive experience for modern web users.</p>
-            
-            <a class="project-button" href="research.html">View Project</a>
-        </section>
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h2>Pages You Can Visit</h2>
+      <ul>
+        <li><strong>Research</strong> – In-depth rhetorical analysis</li>
+        <li><strong>About</strong> – Learn about the creator of this site</li>
+      </ul>
+    </section>
 
-    </main>
+    <section data-aos="zoom-in" data-aos-delay="200">
+      <img src="roxanne-boxing.jpeg" alt="Roxanne Shanté in boxing gloves" class="about-photo" />
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 Natalie Glenn</p>
-    </footer>
+  <a href="#top" class="back-to-top" data-aos="fade-up">Back to Top ↑</a>
 
+  <footer>
+    <p>© 2025 Natalie Glenn</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
