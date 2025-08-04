@@ -24,4 +24,4 @@ Throughout this project, I learned how to:
 - Logical heading structure and clean link labeling
 
 ## Contact
-Feel free to reach out at natalieglenn@tcu.edu with questions or feedback.
+Feel free to reach out at natalie.glenn@tcu.edu with questions or feedback.
