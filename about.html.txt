@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>About Me</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>My Background</h2>
+      <p>I'm a graduate student currently studying web authoring and design. I have a strong interest in storytelling, hip-hop culture, and how digital tools can make academic content more accessible to everyday audiences.</p>
+    </section>
+
+    <section>
+      <h2>Why I Chose This Topic</h2>
+      <p>I chose to focus on “Roxanne’s Revenge” because it’s a moment in hip-hop history that changed the game. Roxanne Shanté’s voice, delivery, and confidence reshaped what it meant to battle in rap — especially as a young woman in a male-dominated space. Her story deserved a place online where more people could engage with it.</p>
+    </section>
+
+    <section>
+      <h2>What I Learned in This Course</h2>
+      <p>This course helped me understand the power of clean, responsive design. I learned how to structure web pages using HTML, style them with CSS, and make my content accessible for mobile users. More importantly, I learned how to translate complex ideas into a digital format that’s easy to read and interact with.</p>
+    </section>
+
+    <section>
+      <h2>Transforming Academic Writing</h2>
+      <p>Turning a research paper into a website wasn’t just about copying and pasting. I had to break up long paragraphs, simplify my language, and think about flow and visual hierarchy. This process taught me how to communicate better — not just as a writer, but as a digital creator.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>If you'd like to reach me, you can email me at: <strong>natalieglenn@tcu.edu</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Natalie Glenn</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roxanne's Revenge: Rhetoric and Impact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Roxanne's Revenge: Rhetorical Brilliance in Hip-Hop History</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Introduction</h2>
+      <p>Roxanne Shanté's "Roxanne’s Revenge" wasn’t just a diss track — it was a cultural shift. Released in 1984, her fiery response to UTFO’s “Roxanne, Roxanne” helped launch the Roxanne Wars, flipped gender norms in hip-hop, and put a teenage girl at the center of rap’s most famous battle.</p>
+    </section>
+
+    <section>
+      <h2>Rhetorical Power</h2>
+      <p>Shanté’s delivery is a masterclass in rhetorical strategy. She mocks, challenges, and outsmarts her targets using tone, voice control, and sharp wordplay. Her authenticity and unapologetic tone gave her the ethos to stand out in a male-dominated space. Her use of everyday language also connected her to real listeners, making her message hit harder.</p>
+    </section>
+
+    <section>
+      <h2>Production & Delivery</h2>
+      <p>The track was recorded in one take over Marley Marl’s beat — itself a recycled UTFO instrumental. That raw, unpolished sound added to her credibility. There’s no fancy mixing or overproduction — just a girl and a mic, spitting truth. The unfiltered energy is part of what made it go viral in the streets.</p>
+    </section>
+
+    <section>
+      <h2>Audience & Legacy</h2>
+      <p>Shanté’s target audience included both hip-hop fans and young women who hadn’t seen themselves represented in rap battles. She gave voice to the voiceless and inspired an entire wave of female MCs. The Roxanne Wars resulted in over 100 answer tracks, making it one of the most influential feuds in rap history.</p>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+      <p>"Roxanne’s Revenge" didn’t just start a feud — it cracked the industry open. Shanté proved that a 14-year-old girl from Queensbridge could step into the cypher and outshine anyone. Her confidence, authenticity, and skill showed the world that hip-hop wasn’t just for the boys.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Natalie Glenn</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  padding: 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #4d1979;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Better focus indicators */
+a:focus, button:focus {
+  outline: 3px solid #4d1979;
+  outline-offset: 2px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 10px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #e2d0ee;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f3ecfa;
+  border-radius: 12px;
+  animation: fadeIn 1s ease-in;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+/* Featured Project */
+.featured-project {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4d1979;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #3b125c;
+  transform: translateY(-2px);
+}
+
+/* Section Layout */
+section {
+  margin-bottom: 40px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 6px;
+}
+
+/* Responsive Text */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 20px 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

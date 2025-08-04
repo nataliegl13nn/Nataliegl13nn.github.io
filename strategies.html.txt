@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rhetorical Strategies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rhetorical Strategies in “Roxanne’s Revenge”</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="strategies.html">Rhetorical Strategies</a></li>
+        <li><a href="production.html">Production</a></li>
+        <li><a href="audience.html">Audience & Legacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Roxanne Shanté’s lyrical approach was sarcastic, confident, and unapologetic. She directly responded to UTFO’s original track using parody and reversal. For example, when she mocks the way UTFO brags about picking up women, she flips the narrative by positioning herself as smarter and in control.
+      </p>
+      <p>
+        She mimics their rhyme schemes but subverts them to humiliate them, showing rhetorical skill beyond her age. Her word choice and tone help her stand out as a teenage girl dismantling a group of grown men through clever insults and irony.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 by Natalie Glenn. All rights reserved.</p>
+  </footer>
+</body>
+</html>

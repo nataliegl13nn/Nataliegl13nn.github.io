@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Production</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Production Techniques</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="strategies.html">Rhetorical Strategies</a></li>
+        <li><a href="production.html">Production</a></li>
+        <li><a href="audience.html">Audience & Legacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        “Roxanne’s Revenge” was recorded in one take, showcasing Shanté’s natural ability and freestyle skill. Marley Marl produced the track using the same instrumental as UTFO’s “Roxanne, Roxanne,” which helped audiences instantly recognize the beat and lean into the diss.
+      </p>
+      <p>
+        The stripped-down production gave more space for her voice and words to shine. Unlike more polished studio rap at the time, this raw energy added to her credibility as a young battle rapper taking on the establishment.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 by Natalie Glenn. All rights reserved.</p>
+  </footer>
+</body>
+</html>
