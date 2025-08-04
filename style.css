@@ -268,6 +268,9 @@ blockquote {
 .about-photo {
   display: block;
   max-width: 300px;
-  margin: 20px auto;
-  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  margin: 1em auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
