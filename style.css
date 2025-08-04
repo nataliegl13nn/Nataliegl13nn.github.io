@@ -243,3 +243,12 @@ button:hover, .btn:hover, .project-button:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
+
+blockquote {
+  font-style: italic;
+  background: #f5f5f5;
+  padding: 1em 1.5em;
+  border-left: 4px solid #444;
+  margin: 2em 0;
+  color: #333;
+}
